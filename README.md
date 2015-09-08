@@ -10,6 +10,13 @@ $ screen -x r[TAB]
 $ screen -x rsync
 ```
 
+# REQUIREMENTS
+
+* [bash](https://www.gnu.org/software/bash/) 4+
+* [GNU awk](https://www.gnu.org/software/gawk/)
+
+E.g., `brew install bash gawk`
+
 # INSTALL
 
 Download [screen-completion.sh](https://raw.githubusercontent.com/mcandre/screen-completion/master/screen-completion.sh) and place into `$HOME`:
