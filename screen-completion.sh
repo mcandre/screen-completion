@@ -1,4 +1,4 @@
-# bash support for screen bookmark tab completion
+# bash support for screen session tab completion
 #
 # Setup instructions
 #
