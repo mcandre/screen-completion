@@ -1,3 +1,4 @@
+#!/bin/bash
 # bash support for screen session tab completion
 #
 # Setup instructions

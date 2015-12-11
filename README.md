@@ -19,17 +19,17 @@ E.g., `brew install bash gawk`
 
 # INSTALL
 
-Download [screen-completion.sh](https://raw.githubusercontent.com/mcandre/screen-completion/master/screen-completion.sh) and place into `$HOME`:
+Download [screen-completion.sh](https://raw.githubusercontent.com/mcandre/screen-completion/master/lib/screen-completion.sh) and place into `$HOME`:
 
 ```
-wget -O $HOME/screen-completion.sh https://raw.githubusercontent.com/mcandre/screen-completion/master/screen-completion.sh
+wget -O $HOME/screen-completion.sh https://raw.githubusercontent.com/mcandre/screen-completion/master/lib/screen-completion.sh
 ```
 
 Then configure your `$HOME/.bash_profile` or similar shell configuration to use screen-completion:
 
 ```
 # screen-completion
-# See https://raw.githubusercontent.com/mcandre/screen-completion/master/screen-completion.sh
+# See https://raw.githubusercontent.com/mcandre/screen-completion/master/lib/screen-completion.sh
 . $HOME/screen-completion.sh
 ```
 
