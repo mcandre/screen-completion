@@ -4,8 +4,8 @@
 # Setup instructions
 #
 # https://github.com/mcandre/screen-completion
+unset IFS
 set -eEuo pipefail
-IFS=$'\n\t '
 
 completescreen() {
     mapfile -t COMPREPLY < <(screen -ls |
